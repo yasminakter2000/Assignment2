@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    padding: 20px 100px;
+}
+
+#iconDiv {
+    display: grid;
+
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#iconDiv>h1 {
+    color: #3A3A3A;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+
+#btnDiv {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#btnDiv>ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#btnDiv>ul>li {
+    list-style-type: none;
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.watchLiveBtn {
+    border-radius: 5px;
+    background: #D00;
+    padding: 0 30px;
+    font-size: 20px;
+    color: #FFF;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+/* header section ends  */
+
+#bannerSection {
+    padding: 20px 100px;
+}
+
+#bannerSectionMainDiv {
+    padding: 40px 80px 0 80px;
+    background-color: #161616;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+    align-items: end;
+    border-radius: 20px;
+    gap: 80px;
+}
+
+#bannerTextDiv {
+    padding-bottom: 45px;
+}
+
+#bannerTextDiv>h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 70px;
+    color: white;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+
+#bannerTextDiv>p {
+    font-size: 16px;
+    color: white;
+    line-height: 26px;
+}
+
+#bannerImgDiv>img {
+    height: 520px;
+    width: 440px;
+}
+
+/* banner section ends  */
+
+
+#cardSection {
+    padding: 20px 100px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 24px;
+}
+
+#formDiv {
+    border-radius: 15px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #161616;
+}
+
+#formDiv>button {
+    width: 250px;
+    height: 64px;
+    border-radius: 10px;
+    border: none;
+    color: #161616;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#formDiv>button:hover{
+    background-color: rgb(100, 100, 100);
+    color: white;
+    transition: .5s ease-in-out;
+}
+
+#formDiv>#redBtn {
+    background-color: #D00;
+    color: rgb(255, 255, 255);
+}
+
+#cardMajorDiv {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cardDiv {
+    padding-top: 2px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(231, 226, 226);
+}
+
+.cardDiv>img {
+    width: 260px;
+}
+
+
+.cardTextDiv {
+    padding: 15px 12px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+}
+
+.cardTextDiv>button {
+    font-size: 16px;
+    font-weight: 500;
+    color: #161616;
+    padding: 4px 16px;
+    width: 100px;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #FFF;
+    border: 1px solid #161616;
+}
+
+.cardTextDiv>button:hover{
+    color: black;
+    background-color: #c7c7c7;
+    transition: .5s ease-in-out;
+}
+
+.cardTextDiv>h4 {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.commentDiv {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.commentImg {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 8px;
+}
+
+/* card section ends  */
+
+
+#sponsorSection {
+    padding: 20px 100px;
+
+}
+
+#sponsorSection>h1{
+    text-align: center;
+    font-size: 40px;
+text-shadow:3px 4px #c7c7c7;
+}
+
+
+#sponsorSectionMainDiv {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partnerCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #cccaca;
+   
+    border: 4px solid rgb(226, 222, 222);
+    border-radius: 10px;
+}
+
+.partnerCard>img {
+    padding: 3px 0;
+    height: 300px;
+    width: 330px;
+    border-radius: 10px;
+}
+
+.partnerCard>article {
+    padding: 10px;
+    text-align: justify;
+    color: #3A3A3A;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.partnerCard>button {
+    border: 5px double rgb(0, 0, 0);
+    padding: 10px 20px;
+    margin: 10px 20px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #2f273d;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+/* sponsor section end  */
+
+footer {
+    background-color: #161616;
+
+}
+
+#footerMainDiv {
+    padding: 80px 140px;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerMainDiv>h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+hr {
+    width: 1000px;
+    border: 1px solid rgb(78, 77, 77);
+}
+
+#footerMenuDiv>ul {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: space-evenly;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+#footerMenuDiv>ul>li {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #B9B9B9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+    header {
+        padding: 10px 20px;
+    }
+
+    #iconDiv {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        text-align: center;
+    }
+
+    #btnDiv {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    #btnDiv>button {
+        padding: 5px 0;
+        justify-content: center;
+        gap: 10px;
+    }
+
+
+
+    /* header ends  */
+
+    #bannerSection {
+        padding: 10px 20px;
+    }
+
+    #bannerSectionMainDiv {
+        padding: 10px 20px 0 20px;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        border-radius: 10px;
+        gap: 20px;
+    }
+
+    #bannerTextDiv {
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    #bannerTextDiv>h1 {
+        font-size: 22px;
+        line-height: 20px;
+        font-weight: 700;
+    }
+
+    #bannerTextDiv>p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #bannerImgDiv {
+    
+        justify-content: center;
+      align-items: end;
+    }
+
+    #bannerImgDiv>img {
+        height: 250px;
+        width: 240px;
+    }
+
+    span {
+        display: none;
+    }
+
+    /* banner section ends   */
+
+    #cardSection {
+        padding: 10px 20px;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    #formDiv {
+        gap: 10px;
+        background-color: white;
+    }
+
+
+
+    #cardMajorDiv {
+        gap: 10px;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .cardDiv>img {
+        width: 360px;
+    }
+
+    .cardTextDiv>button {
+        font-size: 18px;
+    }
+
+    .cardTextDiv>h4 {
+        font-size: 18px;
+    }
+
+    /* card section end  */
+
+
+
+    #footerMainDiv {
+        padding: 10px 20px;
+    }
+
+    #footerMainDiv>h1 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    hr {
+        width: 200px;
+    }
+
+    #footerMenuDiv>ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+
+
+
+}

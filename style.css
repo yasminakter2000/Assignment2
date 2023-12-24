@@ -461,6 +461,42 @@ hr {
     /* card section end  */
 
 
+    
+    #sponsorSection {
+        padding: 10px 20px;
+        text-align: center;
+    }
+
+    #sponsorSection>h1 {
+        font-size: 40px;
+    }
+
+    #sponsorSectionMainDiv {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        grid-gap: 10px;
+    }
+
+    .partnerCard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .partnerCard>img {
+        height: 220px;
+        width: 220px;
+    }
+
+    .partnerCard>article {
+        padding: 3px;
+    }
+
+    /* sponsor section ends  */
+
+
 
     #footerMainDiv {
         padding: 10px 20px;
